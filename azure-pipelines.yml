@@ -7,7 +7,7 @@ variables:
 
 stages:
 - stage: 'Build'
-  displayName: 'Build the web application'
+  displayName: 'Manoj Pandey - Build the web application'
   jobs: 
   - job: 'Build'
     displayName: 'Build job'
@@ -67,7 +67,7 @@ stages:
       artifact: drop
 
 - stage: 'Dev'
-  displayName: 'Deploy to the dev environment'
+  displayName: 'Manoj Pandey -  Deploy to the dev environment'
   dependsOn: Build
   jobs:
   - deployment: Deploy
